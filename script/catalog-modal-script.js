@@ -48,10 +48,6 @@ const modalClose = (evt) => {
 };
 
 document
-  .querySelector(".interested-button")
-  .addEventListener("click", modalOpen);
-
-document
   .querySelector(".navigation-button")
   .addEventListener("click", modalOpen);
 
